@@ -1,9 +1,9 @@
-infix fun String.to(type: String): String{
-    if (type =="upper"){
-        return this.uppercase()
-    }
-    return this.lowercase()
-}
+//infix fun String.to(type: String): Pair<String, String> {
+//    if (type =="upper"){
+//        return this.uppercase()
+//    }
+//    return this.lowercase()
+//}
 
 fun main() {
     println("hello world" to "upper")
